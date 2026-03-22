@@ -3,7 +3,6 @@
 ![Banner](./banner.png)
 
 ![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)
-![SQL](https://img.shields.io/badge/Language-SQL-blue)
 ![Excel](https://img.shields.io/badge/Tool-Excel-green)
 ![DAX](https://img.shields.io/badge/Skill-DAX-orange)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
