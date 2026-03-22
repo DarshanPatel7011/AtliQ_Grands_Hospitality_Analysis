@@ -1,4 +1,4 @@
-# 🏨 AtliQ Grands Hospitality Analysis \| Power BI Dashboard
+# AtliQ Grands Hospitality Analysis | Power BI Dashboard
 
 ![Banner](./banner.png)
 
@@ -26,9 +26,9 @@ business decisions.
 
 AtliQ Grands has been facing:
 
--   📉 Declining market share\
--   💰 Revenue loss due to poor pricing strategies\
--   ❌ High cancellation rates (\~24%)\
+-   📉 Declining market share
+-   💰 Revenue loss due to poor pricing strategies
+-   ❌ High cancellation rates (~24%)
 -   📊 Lack of centralized analytics
 
 👉 Goal: Build a **data-driven dashboard** to identify performance gaps
@@ -72,6 +72,9 @@ and improve decision-making.
 
 ![Monthly Analysis](./2.Monthly%20Analysis.PNG)
 
+👉 [Try Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODRkOWRlMzUtNzc2MS00MWUzLTg1MzAtYmM1NGU5MzBkNTk5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
+) 
+
 ------------------------------------------------------------------------
 
 ## 📊 Key KPIs
@@ -94,19 +97,19 @@ and improve decision-making.
 
 ### 🔹 City Performance
 
--   🥇 Mumbai → Highest revenue\
--   ⭐ Delhi → Best ratings\
+-   🥇 Mumbai → Highest revenue
+-   ⭐ Delhi → Best ratings
 -   Balanced occupancy across cities
 
 ### 🔹 Property Insights
 
--   Top Performer: **AtliQ Exotica**\
+-   Top Performer: **AtliQ Exotica**
 -   Low Performer: **AtliQ Seasons**
 
 ### 🔹 Booking Platforms
 
--   Highest bookings: **Others & MakeMyTrip**\
--   Lowest: **Direct Offline**\
+-   Highest bookings: **Others & MakeMyTrip**
+-   Lowest: **Direct Offline**
 -   High cancellations across all platforms
 
 ### 🔹 Capacity vs Bookings
@@ -118,36 +121,10 @@ and improve decision-making.
 
 ## 🛠️ Tools & Technologies
 
--   **Power BI** -- Data visualization\
--   **Power Query** -- Data transformation\
--   **DAX** -- Calculations & KPIs\
+-   **Power BI** -- Data visualization
+-   **Power Query** -- Data transformation
+-   **DAX** -- Calculations & KPIs
 -   **Excel / CSV** -- Data source
-
-------------------------------------------------------------------------
-
-## ⚙️ Key DAX Measures
-
-``` dax
-Revenue = SUM(fact_bookings[revenue_realized])
-
-Occupancy % = 
-DIVIDE(
-    SUM(fact_bookings[successful_bookings]),
-    SUM(fact_aggregated_bookings[capacity])
-)
-
-Cancellation Rate = 
-DIVIDE(
-    [Total Cancelled Bookings],
-    [Total Bookings]
-)
-
-RevPAR = 
-DIVIDE(
-    [Revenue],
-    SUM(fact_aggregated_bookings[capacity])
-)
-```
 
 ------------------------------------------------------------------------
 
@@ -162,26 +139,26 @@ DIVIDE(
 
 ## 📈 Skills Demonstrated
 
--   Data Modeling (Star Schema)\
--   Advanced DAX\
--   Dashboard Design & UX\
+-   Data Modeling (Star Schema)
+-   Advanced DAX
+-   Dashboard Design & UX
 -   Business Analysis
 
 ------------------------------------------------------------------------
 
 ## 📚 Learnings
 
--   Importance of structured data modeling\
--   Writing optimized DAX measures\
+-   Importance of structured data modeling
+-   Writing optimized DAX measures
 -   Translating business problems into analytics solutions
 
 ------------------------------------------------------------------------
 
 ## 🔗 How to Use
 
-1.  Download the `.pbix` file\
-2.  Open in Power BI Desktop\
-3.  Use filters (City, Property, Platform)\
+1.  Download the `.pbix` file
+2.  Open in Power BI Desktop
+3.  Use filters (City, Property, Platform)
 4.  Explore insights using interactive visuals
 
 ------------------------------------------------------------------------
@@ -196,11 +173,11 @@ Skilled in: **Excel \| Power BI \| SQL \| Python**
 
 ## 📬 Connect With Me
 
--   LinkedIn: (Add your link)\
--   Email: (Add your email)
+-   LinkedIn: (https://www.linkedin.com/in/darshankumar-patel-/)
+-   Email: (darshan.patel7011@gmail.com)
 
 ------------------------------------------------------------------------
 
-## ⭐ Support
+## Explore More  
 
-If you found this project helpful, please ⭐ the repository!
+💡 “If you’d like to interact with the live Power BI dashboard or explore my other projects, check out my portfolio 👉 [Portfolio](https://codebasics.io/portfolio/Darshankumar-Patel)
